@@ -7,8 +7,8 @@ class Timer extends Component {
   };
 
   // add your code here
-  componentDidMount() {
- this.handleAddTimer();
+ componentDidMount() {
+  this.interval = setInterval(this.fetchWeather, 15000);
 }
 
 
