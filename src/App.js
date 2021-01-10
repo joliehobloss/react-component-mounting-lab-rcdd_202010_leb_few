@@ -12,7 +12,7 @@ class App extends Component {
 
   //Your code here:
 componentDidMount() {
-  this.interval = setInterval(this.handleAddTimer, 15000);
+ this.handleAddTimer();
 }
 
 
